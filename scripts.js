@@ -6,8 +6,8 @@
         const email = document.getElementById("email").value;
         const message = document.getElementById("message").value;
 
-        const botToken = "8119231817:AAGAmxzBGY0vBPeVFM2hEEBbXkoAUGxm_HE";
-        const chatId = "6837437455"; // Replace with your chat ID or group's chat ID
+        const botToken = "7978746066:AAH50j-PGVITsXiX6zMMxXIW8ykJ7p5WA84";
+        const chatId = "1790394521"; // Replace with your chat ID or group's chat ID
         const text = `New Booking Form Submission:
 Name: ${name}
 Email: ${email}
@@ -75,8 +75,8 @@ Message: ${message}`;
         `;
 
         // Send the message to Telegram
-        const telegramBotToken = "8119231817:AAGAmxzBGY0vBPeVFM2hEEBbXkoAUGxm_HE";
-        const chatId = "6837437455";
+        const telegramBotToken = "7978746066:AAH50j-PGVITsXiX6zMMxXIW8ykJ7p5WA84";
+        const chatId = "1790394521";
 
         try {
             const response = await fetch(`https://api.telegram.org/bot${telegramBotToken}/sendMessage`, {
