@@ -67,3 +67,44 @@
     }
   }
   
+
+  .single-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon-box {
+    margin-right: 10px;
+    font-size: 20px; /* Slightly smaller icon size */
+    color: #3498db;
+}
+
+.info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.info h5 {
+    margin: 0;
+    font-size: 0.9rem; /* Reduced size for the heading */
+    color: #333;
+}
+
+.info p {
+    margin: 0;
+    font-size: 0.8rem; /* Reduced size for the paragraph */
+    line-height: 1.4;
+}
+
+.info a {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 0.8rem; /* Reduced size for the link */
+    transition: color 0.3s;
+}
+
+.info a:hover {
+    color: #2c3e50;
+}
