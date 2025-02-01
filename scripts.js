@@ -6,7 +6,7 @@
         const email = document.getElementById("email").value;
         const message = document.getElementById("message").value;
 
-        const botToken = "7978746066:AAH50j-PGVITsXiX6zMMxXIW8ykJ7p5WA84";
+        const botToken = "7576953137:AAHmUYxqqFwCO4guB6C3kmicU4Hle7ruyJQ";
         const chatId = "1790394521"; // Replace with your chat ID or group's chat ID
         const text = `New Booking Form Submission:
 Name: ${name}
@@ -75,7 +75,7 @@ Message: ${message}`;
         `;
 
         // Send the message to Telegram
-        const telegramBotToken = "7978746066:AAH50j-PGVITsXiX6zMMxXIW8ykJ7p5WA84";
+        const telegramBotToken = "7576953137:AAHmUYxqqFwCO4guB6C3kmicU4Hle7ruyJQ";
         const chatId = "1790394521";
 
         try {
